@@ -10,7 +10,7 @@ for i in range(N):
 house.sort()
 
 start = 1
-end = house[-1]
+end = house[-1] - house[0]
 result = 0
 
 while start <= end:
